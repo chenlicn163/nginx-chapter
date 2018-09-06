@@ -19,3 +19,17 @@ nginx -t
 ```
 nginx -t -c /etc/nginx/nginx.conf
 ```
+
+
+### nginx 优雅退出
+
+```
+nginx  -s quit
+```
+
+
+### nginx 强制退出
+
+```
+nginx  -s stop
+```
