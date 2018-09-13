@@ -17,3 +17,8 @@ vagrant halt
 ```
 vagrant destory
 ```
+
+### 登录
+```
+vagrant ssh
+```
