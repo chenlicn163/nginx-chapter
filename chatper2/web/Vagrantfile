@@ -5,10 +5,10 @@ Vagrant.require_version ">= 1.6.0"
 
 boxes = [
     {
-        :name => "web-nginx",
-        :eth1 => "192.168.205.20",
+        :name => "web-openresty",
+        :eth1 => "192.168.205.30",
         :mem => "1024",
-        :cpu => "1"
+        :cpu => "2"
     }
 ]
 
