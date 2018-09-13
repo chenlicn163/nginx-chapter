@@ -11,6 +11,7 @@
 - nginx error_log 、access_log、log_format  配置
 - nginx woker  CPU 绑定
 - nginx 虚拟主机配置
+- http 状态码
 - nginx location 介绍
 - nginx http_stub_status_module 模块介绍
 
