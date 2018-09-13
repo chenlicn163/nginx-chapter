@@ -7,7 +7,7 @@
 
 ### chapter 2
 
-- nginx http变量介绍
+- nginx 内置变量介绍
 - nginx error_log 、access_log、log_format  配置
 - nginx woker  CPU 绑定
 - nginx 虚拟主机配置
