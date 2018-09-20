@@ -15,4 +15,8 @@
 - nginx location 介绍
 - nginx http_stub_status_module 模块介绍
 
+### chapter 3
+- nginx访问权限
+- nginx静态服务器
+- vagrant使用补充
  
