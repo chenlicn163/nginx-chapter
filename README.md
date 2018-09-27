@@ -20,3 +20,11 @@
 - nginx静态服务器
 - vagrant使用补充
  
+
+### chapter 4
+- alias 使用
+- try_files 使用
+- rewirte 使用
+- nginx 跨站访问
+- nginx 安全下载
+ 
