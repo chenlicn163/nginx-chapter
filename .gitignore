@@ -1,2 +1,4 @@
 .DS_Store
 .vagrant
+ssl_key_apple
+ssl_key
