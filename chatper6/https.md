@@ -1,10 +1,10 @@
 ### 对称加密
 
- ![对称加密](images/image.png)
+ ![对称加密](images/image1.png)
 
 ### 非对称加密
 
- ![非对称加密](images/image1.png)
+ ![非对称加密](images/image2.png)
 
 ### CA证书
 
