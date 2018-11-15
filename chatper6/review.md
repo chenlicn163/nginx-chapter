@@ -85,6 +85,7 @@ http{
 		location /{
 		}
 	}
+	
 }
 ```
 
@@ -103,6 +104,14 @@ Context:http,server,location,if in location
 **Access-Control-Allow-Origin**
 
 示例
+
+
+
+
+
+Web1 请求 web2
+
+Web2
 
 ```
 add_header Access-Control-Allow-Origin  http://web1.com;
@@ -138,8 +147,8 @@ Context  http
 
 ```
 upstream test {
-	server 172.17.0.2;
-	server 172.17.0.3;
+	server 172.17.0.2 down;
+	server 172.17.0.3 backup;
 	server 172.17.0.4;
 }
 ```

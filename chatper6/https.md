@@ -11,8 +11,10 @@
  ![CA验证](images/image3.png)
 
 **步骤**
- 1、生成key 密钥
+ 1、生成key 密钥 
+
  2、生成证书请求文件(csr文件)
+
  3、生成证书签名文件(CA文件)
 
 ```
@@ -52,10 +54,16 @@ openssl rsa  -in ./jesoncold.key -out ./jesonc_nopass.key
 ```
 
 **生成苹果要求的证书**
+
 1、服务器所有的链接使用TLS1.2以上版本(openssl 1.0.2)
+
 2、HTTPS证书必须使用SHA256以上哈希算法签名
+
 3、HTTPS证书必须使用RSA 2048位 或者ECC 256位以上公钥算法
+
 4、使用向前加密技术
+
+
 
 
 ```
@@ -70,6 +78,7 @@ ssl_certificate_key /usr/local/openresty/nginx/conf/ssl_key/jesonc.key;
 
 ### https 优化
 激活 keepalive 长链接
+
 设置ssl session缓存
 
 ```
